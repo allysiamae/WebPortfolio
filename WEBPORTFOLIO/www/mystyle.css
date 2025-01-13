@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.dark-mode {
+    background-color: #343a40;
+    color: #f1f3f5;
+}
+
+header {
+    background-color: #0a1c2f;
+    color: white;
+    padding: 20px;
+}
+
+footer {
+    background-color: #6d6d7f;
+    color: white;
+    padding: 10px;
+}
+
+.progress {
+    height: 20px;
+}
+
+#clock {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+#counterDisplay {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+#quoteDisplay {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+:root {
+    --background-color: white;
+    --text-color: black;
+}
+
+[data-theme="dark"] {
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
